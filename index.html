@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Lord of the Rings</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="btn-style.css">
+</head>
+<body>
+<div id="body-contents">
+    <div id="jumbo">
+        <div class="overlay"></div>
+            <div id="head">
+                <div id="title">Lord Of the Rings</div>
+                <div id="subtitle">
+                    <h3>by J.R.R Tolkein</h3>
+                </div>
+                <div style="margin-top:54px;";> 
+                    <span id="button" type="submit" 
+                        onclick="alert('Booking has been confirmed!')">
+                            BOOK A TICKET
+                    </span>
+                    
+                </div>
+            </div>
+    </div>
+    
+    
+    <div id="author">
+        <div id="about">
+            <span id="paragraph"><p>
+                    <span style="font-size:32px;">T</span>he Lord of the Rings is a film series consisting of three high fantasy adventure films directed by Peter Jackson. They are based on the novel The Lord of the Rings by J. R. R. Tolkien. The films are subtitled The Fellowship of the Ring (2001), The Two Towers (2002) and The Return of the King (2003). They are a New Zealand-American venture produced by WingNut Films and The Saul Zaentz Company and distributed by New Line Cinema.
+                    <br><br><span id="learn" onclick="alert('Do you really wanna learn more!!')">Learn More</span>
+            </p></span>
+        </div>
+        <span id="image">
+            <img id="jrr" src="./assets/img/5.png"> 
+            <div style="margin-top:-4%; float:right;">
+                <span id="name1">JRR Tolkein,</span><span id="name1"> Author, Lord of the Rings</span>
+            </div>
+        </span>
+    </div>
+
+    <div class="grid-container">
+        
+            <div class="grid-item" id="img1">
+                <div style="margin-top:299px";>
+                    <div id="txt-btn">
+                        <span class="hover-text">
+                            The fellowship of the ring
+                            <div style="margin-top:34px; margin-left:20px;";>    
+                                <span id="button-mini" type="submit" 
+                                    onclick="alert('TADA!!!!')">
+                                        Learn more
+                                </span>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="img2">
+                    <div style="margin-top:299px";> 
+                        <span class="hover-text">
+                                The two towers<br>
+                                <div style="margin-top:34px; margin-left:20px;";>        
+                                        <span id="button-mini" type="submit" 
+                                            onclick="alert('TADA!!!!')">
+                                            Learn more
+                                        </span>
+                                </div>
+                        </span>
+                    </div>
+            </div>
+            <div class="grid-item" id="img3">
+                    <div style="margin-top:299px";> 
+                        <span class="hover-text">
+                                The return of the king<br>
+                                <div style="margin-top:34px; margin-left:20px;";> 
+                                            <span id="button-mini" type="submit" 
+                                                onclick="alert('TADA!!!!')">
+                                                Learn more
+                                            </span>
+                                </div>
+                        </span>
+                    </div>
+            </div>   
+    </div>
+        <br>
+    <div id="form">
+            <h2 style="font-size:32px; color:#212121; margin-top:121px;">Book Ticket</h2>
+
+            <form style="font-size:16px; color:#212121; margin-top:40px;">
+                Your Name:
+                <input id="name" type="text" name="name" style="margin-top:13px; font-size:18px; font-family:merriweather;">
+              
+                <p style="margin-top:47px;">Your Address:</p>
+                <textarea id="add" type="message" name="address" style="font-size:18px; font-family:merriweather;" ></textarea>
+
+              
+                            <div  style="margin-top:32px;">Suppliments</div>
+                            <span class="mark">✓</span>
+                            <label class="container-chkbox">
+                                Snacks
+                                    <input type="checkbox" checked="checked">
+                                    <span class="tick"></span>
+                            </label>
+                            <label class="container-chkbox">
+                                Special Seats
+                                    <input type="checkbox">
+                                    <span class="tick"></span>
+                            </label>
+
+                            <div  style="margin-top:32px;">Number of tickets</div>
+                                    <div id="container-block">
+                                        <label class="container">
+                                            <input type="radio" checked="checked" name="radio">
+                                            <span class="checkmark">1</span>
+                                        </label>
+                                        <label class="container">
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark">2</span>
+                                        </label>
+                                        <label class="container">
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark">3</span>
+                                        </label>
+                                        <label class="container">
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark">4</span>
+                                        </label>
+                                    </div>
+                            <div id="butt2">
+                                <span id="button2" type="submit" 
+                                    onclick="alert('Booking has been confirmed!')" >
+                                        BOOK TICKET
+                                </span>
+                            </div>
+            </form> 
+    </div>
+</div>
+</body>
+</html>
